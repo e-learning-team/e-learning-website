@@ -5,7 +5,7 @@ import { logout, updateToken } from '../store/User/userSlice';
 import { store } from '../store/configureStore';
 import { apiLogOut } from './user';
 const instance = axios.create({
-    baseURL: 'https://haovo.id.vn/e-learning/api', 
+    baseURL: 'https://haovo.cloud/e-learning/api',
     'Content-Type': 'application/json',
 });
 let isRefreshing = false;
